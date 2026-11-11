@@ -9,7 +9,6 @@ class BaseConhecimento:
         self.caminho = caminho
         self.orientacoes = []
 
-    # Remove acentos, pontuação e padroniza o texto
     def normalizar(self, texto):
         texto = texto.lower().strip()
 
@@ -24,7 +23,6 @@ class BaseConhecimento:
 
         return texto
 
-    # Carrega as orientações do arquivo JSON
     def carregar(self):
         try:
             with open(self.caminho, "r", encoding="utf-8") as arquivo:
@@ -73,7 +71,6 @@ class BaseConhecimento:
             print(f"Erro ao acessar a base de conhecimento: {erro}")
             self.orientacoes = []
 
-    # Retorna as categorias existentes
     def categorias(self):
         lista_categorias = {
             orientacao.categoria
@@ -82,7 +79,6 @@ class BaseConhecimento:
 
         return sorted(lista_categorias)
 
-    # Retorna as orientações de uma categoria específica
     def por_categoria(self, categoria):
         return [
             orientacao
@@ -90,21 +86,18 @@ class BaseConhecimento:
             if orientacao.categoria == categoria
         ]
 
-    # Calcula a pontuação de uma orientação para uma pergunta
     def pontuar(self, pergunta, orientacao):
         pergunta_normalizada = self.normalizar(pergunta)
         titulo_normalizado = self.normalizar(orientacao.titulo)
 
         pontos = 0
 
-        # Cada palavra-chave encontrada vale 3 pontos
         for palavra_chave in orientacao.palavras_chave:
             palavra_normalizada = self.normalizar(palavra_chave)
 
             if palavra_normalizada in pergunta_normalizada:
                 pontos += 3
 
-        # Cada palavra com 4 ou mais letras encontrada no título vale 1 ponto
         palavras_pergunta = set(pergunta_normalizada.split())
         palavras_titulo = set(titulo_normalizado.split())
 
@@ -114,7 +107,6 @@ class BaseConhecimento:
 
         return pontos
 
-    # Busca orientações relacionadas à pergunta
     def buscar(self, pergunta):
         resultados = []
 

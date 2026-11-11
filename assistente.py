@@ -15,7 +15,6 @@ class Assistente:
         self.caminho_historico = "data/historico.json"
         self.carregar_historico()
 
-    # Carrega os atendimentos anteriores
     def carregar_historico(self):
         try:
             with open(self.caminho_historico, "r", encoding="utf-8") as arquivo:
@@ -31,7 +30,6 @@ class Assistente:
             print("Aviso: o histórico está inválido. Um novo histórico será iniciado.")
             self.historico = []
 
-    # Salva o histórico no arquivo JSON
     def salvar_historico(self):
         os.makedirs("data", exist_ok=True)
 
@@ -43,14 +41,12 @@ class Assistente:
                 indent=4
             )
 
-    # Verifica se a pergunta contém possíveis dados pessoais
     def contem_dado_pessoal(self, texto):
         possui_numero_longo = re.search(r"\d{8,}", texto)
         possui_email = "@" in texto
 
         return bool(possui_numero_longo or possui_email)
 
-    # Registra um atendimento no histórico
     def registrar(
         self,
         origem,
@@ -75,7 +71,6 @@ class Assistente:
         self.historico.append(atendimento)
         self.salvar_historico()
 
-    # Recebe uma pergunta e procura uma orientação
     def perguntar(self):
         inicio = time.time()
         tentativas = 0
@@ -119,7 +114,6 @@ class Assistente:
 
                 melhor_orientacao.exibir()
 
-                # Apresenta até duas alternativas
                 alternativas = resultados[1:3]
 
                 if alternativas:
@@ -175,7 +169,6 @@ class Assistente:
 
                     return
 
-    # Permite consultar orientações por categoria
     def navegar(self):
         inicio = time.time()
 
@@ -256,7 +249,6 @@ class Assistente:
                     tempo_segundos=tempo
                 )
 
-    # Apresenta indicadores dos atendimentos
     def indicadores(self):
         atendimentos = [
             registro for registro in self.historico
@@ -328,7 +320,6 @@ class Assistente:
 
         print("=" * 50)
 
-    # Exporta os atendimentos para um arquivo CSV
     def exportar_csv(self):
         os.makedirs("data", exist_ok=True)
 
@@ -356,7 +347,6 @@ class Assistente:
 
         print(f"\nAtendimentos exportados para: {caminho_csv}")
 
-    # Solicita uma avaliação geral antes de encerrar
     def avaliar_facilidade(self):
         while True:
             resposta = input(
@@ -383,7 +373,6 @@ class Assistente:
 
             print("Digite somente um número entre 1 e 5.")
 
-    # Menu principal do assistente
     def menu(self):
         print("\nBem-vindo ao Primeiro Passo!")
         print("Seu assistente de orientação para o primeiro emprego.")
