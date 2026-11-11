@@ -1,0 +1,190 @@
+
+[
+  {
+    "id": 1,
+    "categoria": "Preparação para o primeiro emprego",
+    "titulo": "Como montar um currículo sem ter experiência profissional?",
+    "palavras_chave": [
+      "montar curriculo",
+      "curriculo sem experiencia",
+      "primeiro curriculo",
+      "fazer curriculo"
+    ],
+    "resposta": "Para montar seu primeiro currículo, mesmo sem experiência profissional, comece reunindo suas informações de contato, escolaridade, cursos realizados e habilidades. Organize o currículo com um objetivo profissional, sua formação escolar e atividades que demonstrem seus conhecimentos, como trabalhos voluntários, projetos escolares e cursos. Utilize uma linguagem simples, seja sincero e revise a escrita antes de enviar. Não invente experiências profissionais nem inclua informações pessoais desnecessárias, como CPF e RG.",
+    "documentos": [
+      "Informações pessoais",
+      "Escolaridade",
+      "Cursos realizados",
+      "Habilidades"
+    ],
+    "onde": "Em casa, utilizando um editor de texto, como Word ou Google Docs.",
+    "fonte": "https://sine.pb.gov.br/informacoes/documentos/modelo-de-curriculo-01.docx/view",
+    "verificado_em": ""
+  },
+  {
+    "id": 2,
+    "categoria": "Preparação para o primeiro emprego",
+    "titulo": "O que colocar no currículo quando ainda não trabalhei?",
+    "palavras_chave": [
+      "curriculo sem trabalho",
+      "sem experiencia profissional",
+      "informacoes para curriculo",
+      "curriculo primeiro emprego"
+    ],
+    "resposta": "Mesmo sem nunca ter trabalhado, você pode apresentar informações importantes no currículo. Inclua sua escolaridade, cursos, conhecimentos de informática, idiomas, atividades escolares, trabalhos voluntários e outras experiências que demonstrem suas habilidades. Também é importante informar qual tipo de oportunidade procura, como Jovem Aprendiz, estágio ou primeiro emprego. Escolha informações verdadeiras e que tenham relação com a vaga desejada. Não se preocupe em preencher o currículo com informações desnecessárias: priorize aquilo que demonstra seu potencial.",
+    "documentos": [
+      "Escolaridade",
+      "Cursos e qualificações",
+      "Atividades extracurriculares",
+      "Habilidades pessoais"
+    ],
+    "onde": "Em casa, utilizando um editor de texto, ou com auxílio de serviços de orientação profissional.",
+    "fonte": "https://sedet.df.gov.br/documents/9170759/10185778/CARTILHA_ATENDIMENTO_TRABALHADORES_JOVENS_SINE.pdf",
+    "verificado_em": ""
+  },
+  {
+    "id": 3,
+    "categoria": "Preparação para o primeiro emprego",
+    "titulo": "Como identificar minhas habilidades e escolher uma área profissional?",
+    "palavras_chave": [
+      "escolher profissao",
+      "habilidades profissionais",
+      "area profissional",
+      "orientacao profissional"
+    ],
+    "resposta": "Para descobrir suas habilidades e escolher uma área profissional, comece pensando nas atividades de que gosta e naquelas que realiza bem. Considere matérias escolares de que gosta, atividades extracurriculares, cursos e projetos dos quais participou. Pesquise diferentes profissões para conhecer suas funções, áreas de atuação e qualificações necessárias. Você também pode procurar orientação profissional e cursos de qualificação oferecidos na sua região. Não precisa decidir toda a sua carreira de uma vez: conhecer possibilidades é um bom primeiro passo.",
+    "documentos": [],
+    "onde": "Em instituições de ensino, serviços de orientação profissional e plataformas de cursos.",
+    "fonte": "https://sedet.df.gov.br/documents/9170759/10185778/CARTILHA_ATENDIMENTO_TRABALHADORES_JOVENS_SINE.pdf",
+    "verificado_em": ""
+  },
+  {
+    "id": 4,
+    "categoria": "Preparação para o primeiro emprego",
+    "titulo": "Qual é a diferença entre Jovem Aprendiz, estágio e emprego formal?",
+    "palavras_chave": [
+      "jovem aprendiz",
+      "estagio",
+      "emprego formal",
+      "tipos de contrato"
+    ],
+    "resposta": "Jovem Aprendiz, estágio e emprego formal são modalidades diferentes. A aprendizagem profissional combina atividades práticas em uma empresa com formação teórica em uma entidade qualificadora, seguindo regras específicas de idade, matrícula e contrato. O estágio é uma atividade educativa supervisionada, relacionada à formação do estudante, e possui regras próprias. Já o emprego formal é uma relação de trabalho registrada, com direitos e deveres previstos na legislação. Antes de se candidatar, leia os requisitos da oportunidade e verifique qual modalidade está sendo oferecida.",
+    "documentos": [],
+    "onde": "No portal do Ministério do Trabalho e Emprego e em instituições de ensino e aprendizagem profissional.",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/aprendizagem-profissional",
+    "verificado_em": ""
+  },
+  {
+    "id": 5,
+    "categoria": "Busca por oportunidades",
+    "titulo": "Onde encontrar vagas de primeiro emprego?",
+    "palavras_chave": [
+      "vagas primeiro emprego",
+      "procurar emprego",
+      "onde encontrar vagas",
+      "buscar trabalho"
+    ],
+    "resposta": "Você pode encontrar oportunidades de primeiro emprego em diferentes lugares, como o Portal Emprega Brasil, o aplicativo da Carteira de Trabalho Digital, unidades do SINE, páginas de carreiras das empresas e plataformas de recrutamento. Também vale pesquisar programas de Jovem Aprendiz e oportunidades de estágio. Ao procurar uma vaga, utilize palavras relacionadas à área desejada e à modalidade de contratação. Leia os requisitos com atenção e confira se a oportunidade combina com seu perfil e sua disponibilidade.",
+    "documentos": [
+      "Currículo atualizado",
+      "Informações de contato"
+    ],
+    "onde": "Portal Emprega Brasil, aplicativo Carteira de Trabalho Digital, unidades do SINE e sites de empresas.",
+    "fonte": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+    "verificado_em": ""
+  },
+  {
+    "id": 6,
+    "categoria": "Busca por oportunidades",
+    "titulo": "Como cadastrar meu currículo no SINE e no Emprega Brasil?",
+    "palavras_chave": [
+      "cadastrar curriculo",
+      "cadastro no sine",
+      "emprega brasil",
+      "procurar vagas online"
+    ],
+    "resposta": "Para procurar vagas pelo SINE, acesse o Portal Emprega Brasil pelo endereço servicos.mte.gov.br e entre utilizando sua conta gov.br. Depois, preencha ou atualize suas informações cadastrais, escolaridade, qualificações e experiências profissionais, caso tenha. Informe também as áreas e localidades de interesse. O sistema utiliza essas informações para apresentar oportunidades compatíveis com seu perfil. Você também pode procurar atendimento presencial em uma unidade do SINE. O serviço é gratuito.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br",
+      "Informações profissionais e escolares"
+    ],
+    "onde": "Portal Emprega Brasil, aplicativo Carteira de Trabalho Digital ou unidades de atendimento do SINE.",
+    "fonte": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+    "verificado_em": ""
+  },
+  {
+    "id": 7,
+    "categoria": "Busca por oportunidades",
+    "titulo": "Como encontrar vagas de Jovem Aprendiz e estágio?",
+    "palavras_chave": [
+      "vagas jovem aprendiz",
+      "vagas de estagio",
+      "programa de aprendizagem",
+      "oportunidades para jovens"
+    ],
+    "resposta": "Para encontrar vagas de Jovem Aprendiz e estágio, procure nos sites oficiais das empresas, nas páginas de carreiras, em entidades formadoras e em plataformas de recrutamento. Para oportunidades de aprendizagem profissional, também vale consultar instituições como SENAI e SENAC e as informações disponibilizadas pelo Ministério do Trabalho. Confira a idade exigida, a escolaridade, os horários e os demais requisitos de cada vaga. No caso de estágio, verifique se a oportunidade está relacionada ao seu curso e se você atende às condições solicitadas.",
+    "documentos": [
+      "Currículo",
+      "Informações escolares"
+    ],
+    "onde": "Sites de empresas, instituições de aprendizagem profissional, instituições de ensino e plataformas de recrutamento.",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/aprendizagem-profissional",
+    "verificado_em": ""
+  },
+  {
+    "id": 8,
+    "categoria": "Entrevistas e processos seletivos",
+    "titulo": "Como me preparar para uma entrevista de emprego?",
+    "palavras_chave": [
+      "preparar entrevista",
+      "entrevista de emprego",
+      "processo seletivo",
+      "dicas para entrevista"
+    ],
+    "resposta": "Antes de uma entrevista de emprego, pesquise sobre a empresa e leia novamente a descrição da vaga. Procure chegar com antecedência, escolha uma roupa adequada ao ambiente e organize o que deseja apresentar sobre sua formação e suas habilidades. Durante a conversa, escute as perguntas com atenção, responda com sinceridade e demonstre interesse pela oportunidade. Evite utilizar gírias em excesso, mexer no celular ou falar mal de outras pessoas ou empresas. Se tiver dúvidas sobre a vaga, pergunte educadamente.",
+    "documentos": [
+      "Currículo enviado à empresa",
+      "Informações sobre a vaga"
+    ],
+    "onde": "Em casa, utilizando informações da empresa e da vaga para estudar e praticar.",
+    "fonte": "https://sine.pb.gov.br/informacoes/documentos/informacoes-relevantes-para-o-trabalhador",
+    "verificado_em": ""
+  },
+  {
+    "id": 9,
+    "categoria": "Entrevistas e processos seletivos",
+    "titulo": "Como responder às perguntas de uma entrevista quando não tenho experiência?",
+    "palavras_chave": [
+      "entrevista sem experiencia",
+      "perguntas de entrevista",
+      "primeira entrevista",
+      "como responder entrevista"
+    ],
+    "resposta": "Se perguntarem sobre sua experiência profissional e você ainda não trabalhou, seja honesto. Explique que está buscando sua primeira oportunidade e destaque o que já aprendeu na escola, em cursos, projetos, atividades voluntárias ou trabalhos em grupo. Por exemplo, você pode falar sobre sua facilidade para trabalhar em equipe, organização, comunicação ou conhecimentos de informática, desde que sejam habilidades que realmente possui. Mostre disposição para aprender e explique por que tem interesse naquela oportunidade. Não invente experiências para tentar impressionar o entrevistador.",
+    "documentos": [],
+    "onde": "Durante a entrevista de emprego, presencialmente ou por videoconferência.",
+    "fonte": "https://sine.pb.gov.br/informacoes/documentos/informacoes-relevantes-para-o-trabalhador",
+    "verificado_em": ""
+  },
+  {
+    "id": 10,
+    "categoria": "Entrevistas e processos seletivos",
+    "titulo": "Como identificar falsas vagas de emprego e evitar golpes?",
+    "palavras_chave": [
+      "golpe emprego",
+      "falsa vaga",
+      "fraude em emprego",
+      "vaga falsa"
+    ],
+    "resposta": "Antes de se candidatar a uma vaga, confira se ela realmente existe nos canais oficiais da empresa. Desconfie de oportunidades que solicitam pagamentos para participar de seleções ou pedem documentos pessoais por números desconhecidos. Evite enviar cópias de RG, CPF ou outros documentos sem confirmar a legitimidade do processo. Confira o endereço do site, o nome da empresa e os canais de contato. Se receber links suspeitos, não clique neles nem forneça senhas ou códigos de confirmação. Em caso de suspeita, procure os canais oficiais da empresa para confirmar a oportunidade.",
+    "documentos": [
+      "Informações da vaga",
+      "Nome da empresa",
+      "Dados de contato para verificação"
+    ],
+    "onde": "Nos canais oficiais das empresas, sites institucionais e canais de denúncia das autoridades competentes.",
+    "fonte": "https://pc.sc.gov.br/wp-content/uploads/2024/04/Cartilha-Prevencao-Golpes-1.pdf",
+    "verificado_em": ""
+  }
+]
