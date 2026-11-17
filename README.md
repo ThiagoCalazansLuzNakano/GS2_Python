@@ -216,7 +216,7 @@ O sistema também não deve receber dados pessoais dos usuários, como CPF, tele
 
 O vídeo apresenta a estrutura do código, as classes utilizadas, o funcionamento da busca, a demonstração das funcionalidades, os testes realizados e as decisões técnicas do projeto.
 
-**Link do vídeo no YouTube (não listado):** [INSERIR LINK]
+**Link do vídeo no YouTube (não listado):** https://youtu.be/2yBL7j_HH7E
 
 ---
 
